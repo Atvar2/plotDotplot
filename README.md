@@ -24,8 +24,8 @@ On the command line, just run
 ```
 perl ../displayCollinearity.pl test0.syn  Actinidia_chinensis.Red5.len   kiwifruit.chr.len   colors.txt   test.svg --spec1 specie --spec2 specie --r 2 --unit 20  --identity 1
 ```
-![colinearity] (https://github.com/chenjunhui/plotDotplot/tree/plotDotplot/example/test.png)
-
+![colinearity](https://github.com/chenjunhui/plotDotplot/tree/plotDotplot/example/test.png)<br/>
+![juicerbox sorted](https://github.com/chenjunhui/plotHicGenome/blob/plotHicGenome/example/sorted.png)<br/>
 Input file
 ===
 ---
