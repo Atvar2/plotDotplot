@@ -19,10 +19,24 @@ Installation
 Usage
 ===
 ----
+On the command line, just run
 ```
 perl ../displayCollinearity.pl test0.syn  Actinidia_chinensis.Red5.len   kiwifruit.chr.len   colors.txt   test.svg --spec1 specie --spec2 specie --r 2 --unit 20  --identity 1
 ```
-
+Input file
+===
+---
+*genome Length
+```
+LG1     21084470
+LG10    22486653
+LG11    16130964
+```
+*collinearity blocks
+```
+LG1     LG1     8087    9743    LG11    LG11    9655989 9657635 93.94
+Specie1_chromosome   flag[chr|geneID]  start end   Specie2_chromosome   flag[chr|geneID]  start end   scaore
+```
 Parameters
 ===
 ---
