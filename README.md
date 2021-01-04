@@ -15,4 +15,30 @@ Installation
       Install it, just simply execute ```git clone  https://github.com/chenjunhui/plotDotplot/edit/plotDotplot```
       Then you can run it directly.
       
-      Notably,
+      Notably, the kit depend on SVG package of perl, thus, you should install it and export PERL5LIB="/user/packages:$PERL5LIB" before run it.
+Usage
+===
+----
+```
+perl ../displayCollinearity.pl test0.syn  Actinidia_chinensis.Red5.len   kiwifruit.chr.len   colors.txt   test.svg --spec1 specie --spec2 specie --r 2 --unit 20  --identity 1
+```
+
+Parameters
+===
+---
+perl displayCollinearity.pl  <syn_chr_file> <chr1_file> <chr2_file> <svg_out> [options]
+
+     <blockFile>:   The synteny relationshiop or aligment between two genome.
+     <queryLength>:  The species chromosomes length file plot in the X axis.
+     <referenceLength>:The species chromosomes length file plot in the Y axis.
+     <svg_out>:      The output svg file.
+     --identity      Add identity to the figure if display the alignment.  [default: 0]
+     --spec1 <str>:  Set the X axis title. [default:species1]
+     --spec2 <str>:  Set the Y axis title. [default:species2]
+     --r     <int>:  Set the radius of each syntenic dot. [default:3]
+     --unit  <int>:  Set the scale on the X/Y axis. [default:20]
+     --rx    <int>:  Set the resolution of X axis. [default:200000]
+     --ry    <int>:  Set the resolution of Y axis. [default:200000]
+     --reorder:      reorder chromosome of x axis basing on chromosome on y axis.
+     --orderaxis:    axis needed to be ordered, default: x.
+     --png:          Convert the svg file into png format.
