@@ -13,10 +13,9 @@ Installation
 ---
       The Kit was writted mainly by perl, and tested  with perl v5.10.1 on CentOS release 6.9.
       Install it, just simply execute as following.Then you can run it directly.
-      ```
+```
       git clone  https://github.com/chenjunhui/plotDotplot/edit/plotDotplot
-      ```
-      
+```
       Notably, the kit depend on SVG package of perl, thus, you should install it and `export PERL5LIB="/user/packages:$PERL5LIB"` before run it.
 Usage
 ===
@@ -28,13 +27,13 @@ perl ../displayCollinearity.pl test0.syn  Actinidia_chinensis.Red5.len   kiwifru
 Input file
 ===
 ---
-*genome Length
+* genome Length
 ```
 LG1     21084470
 LG10    22486653
 LG11    16130964
 ```
-*collinearity blocks
+* collinearity blocks
 ```
 LG1     LG1     8087    9743    LG11    LG11    9655989 9657635 93.94
 Specie1_chromosome   flag[chr|geneID]  start end   Specie2_chromosome   flag[chr|geneID]  start end   score
