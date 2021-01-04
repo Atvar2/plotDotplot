@@ -4,7 +4,7 @@ The kit was used for displaying dotplot of genome alignment basing on mscan and 
 Copyright (C) 2014 Arthur Zwaenepoel
    Apache License Version 2.0, January 2004 http://www.apache.org/licenses/
   
- Beijing Genomics Institute, Animal and Plant research https://www.genomics.cn/
+ Beijing Genomics Institute, Animal and Plant research: https://www.genomics.cn/
 
 #The Kit was used for displaying genomic collinearity basing on result of [Mummer](http://mummer.sourceforge.net/)  or [Mscan](https://github.com/tanghaibao/mcscan). 
 
@@ -16,7 +16,7 @@ Installation
 ```
       git clone  https://github.com/chenjunhui/plotDotplot/edit/plotDotplot
 ```
-      Notably, the kit depend on SVG package of perl, thus, you should install it and `export PERL5LIB="/user/packages:$PERL5LIB"` before run it.
+Notably, the kit depend on SVG package of perl, thus, you should install it and `export PERL5LIB="/user/packages:$PERL5LIB"` before run it.
 Usage
 ===
 ----
