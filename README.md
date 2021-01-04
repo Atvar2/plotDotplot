@@ -59,7 +59,7 @@ perl displayCollinearity.pl  <syn_chr_file> <chr1_file> <chr2_file> <svg_out> [o
      --orderaxis:    axis needed to be ordered, default: x.
      --png:          Convert the svg file into png format.
      
-     Contact
-     ===
-     ---
+  Contact
+  ===
+  ---
      chenjhbio: chenjunhui@genomics.cn
