@@ -17,6 +17,7 @@ Installation
       git clone  https://github.com/chenjunhui/plotDotplot/edit/plotDotplot
 ```
 Notably, the kit depend on SVG package of perl, thus, you should install it and `export PERL5LIB="/user/packages:$PERL5LIB"` before run it.
+
 Usage
 ===
 ----
