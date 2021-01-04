@@ -58,3 +58,8 @@ perl displayCollinearity.pl  <syn_chr_file> <chr1_file> <chr2_file> <svg_out> [o
      --reorder:      reorder chromosome of x axis basing on chromosome on y axis.
      --orderaxis:    axis needed to be ordered, default: x.
      --png:          Convert the svg file into png format.
+     
+     Contact
+     ===
+     ---
+     chenjhbio: chenjunhui@genomics.cn
