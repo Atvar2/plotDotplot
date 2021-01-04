@@ -62,4 +62,4 @@ perl displayCollinearity.pl  <syn_chr_file> <chr1_file> <chr2_file> <svg_out> [o
   Contact
   ===
   ---
-     chenjhbio: chenjunhui@genomics.cn
+     chenjhbio: [chenjunhui@genomics.cn](https://outlook.office.com/mail/)
