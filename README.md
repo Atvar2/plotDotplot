@@ -11,10 +11,10 @@ Copyright (C) 2014 Arthur Zwaenepoel
 Installation
 ===
 ---
-      The Kit was writted mainly by perl, and tested  with perl v5.10.1 on CentOS release 6.9.
-      Install it, just simply execute as following.Then you can run it directly.
+The Kit was writted mainly by perl, and tested  with perl v5.10.1 on CentOS release 6.9.
+Install it, just simply execute as following.Then you can run it directly.
 ```
-      git clone  https://github.com/chenjunhui/plotDotplot/edit/plotDotplot
+git clone  https://github.com/chenjunhui/plotDotplot/edit/plotDotplot
 ```
 Notably, the kit depend on SVG package of perl, thus, you should install it and `export PERL5LIB="/user/packages:$PERL5LIB"` before run it.
 
